@@ -9,6 +9,12 @@ const LeftSideBar = () => {
                 <img src={assets.logo} className='logo' alt=""/>
                 <div className="menu">
                     <img src={assets.menu_icon} alt=""/>
+                    <div className="sub-menu">
+                        <p>Edit Profile</p>
+                        <hr />
+                        <p>Logout</p>
+
+                    </div>
                 </div>
             </div>
             <div className="ls-search">
@@ -20,7 +26,7 @@ const LeftSideBar = () => {
             {Array(12).fill("").map((item,index)=>(<div key={index} className="friends">
                 <img src={assets.profile_img} alt="" />
                 <div>
-                    <p>Richard Sanford</p>
+                    <p>Shitanshu Yadav</p>
                     <span>Hello, How are you?</span>
                 </div>
 
